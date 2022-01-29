@@ -5,7 +5,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir KyyMusic \
     && cd KyyMusic \
-    && git clone https://github.com/muhammadrizky16/KyyMusic
-WORKDIR /KyyMusic/KyyMusic
+    && git clone https://github.com/MickeyxD/MinnieMusic
+WORKDIR /MinnieMusic/MinnieMusic
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 CMD python3 -m Music
